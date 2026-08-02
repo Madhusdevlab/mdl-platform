@@ -1,0 +1,45 @@
+@use "../tokens" as *;
+@use "../abstracts" as *;
+
+/* ============================================================
+   Global Base Styles
+   ============================================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  font-size: $text-base;
+  font-weight: $font-regular;
+  line-height: $leading-normal;
+
+  background: $color-background;
+  color: $color-text;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Selection */
+
+::selection {
+  background: $color-primary;
+  color: $color-text-inverse;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $mdl-brand-300;
+  border-radius: $radius-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $mdl-brand-500;
+}

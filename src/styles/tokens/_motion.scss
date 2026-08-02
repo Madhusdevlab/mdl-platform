@@ -1,0 +1,27 @@
+/* ============================================================
+   MDL Design Tokens — Motion
+   ============================================================ */
+
+/* Duration */
+
+$duration-fast: 150ms;
+$duration-normal: 250ms;
+$duration-slow: 400ms;
+
+/* Timing Functions */
+
+$ease-linear: linear;
+
+$ease-in:
+cubic-bezier(.4,0,1,1);
+
+$ease-out:
+cubic-bezier(0,0,.2,1);
+
+$ease-in-out:
+cubic-bezier(.4,0,.2,1);
+
+/* Common Transition */
+
+$transition-base:
+all $duration-normal $ease-in-out;

@@ -1,0 +1,16 @@
+@use "../tokens" as *;
+@use "../abstracts" as *;
+
+/* ============================================================
+   Layout — Container
+   ============================================================ */
+
+.container {
+  width: min(100% - #{$space-8}, 1320px);
+  margin-inline: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-inline: $space-4;
+}

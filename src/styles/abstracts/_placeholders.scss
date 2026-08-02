@@ -1,7 +1,12 @@
 /* ============================================================
-   SCSS Functions
+   Placeholders
    ============================================================ */
 
-@function rem($px) {
-  @return calc($px / 16) * 1rem;
+%card {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+%transition {
+  transition: all .25s ease;
 }

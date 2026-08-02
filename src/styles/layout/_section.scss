@@ -1,0 +1,21 @@
+@use "../tokens" as *;
+
+/* ============================================================
+   Layout — Section
+   ============================================================ */
+
+.section {
+  padding-block: $space-12;
+}
+
+.section-sm {
+  padding-block: $space-9;
+}
+
+.section-lg {
+  padding-block: $space-12;
+}
+
+.section-xl {
+  padding-block: $space-12;
+}
